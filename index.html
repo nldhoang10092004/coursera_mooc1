@@ -2,56 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/styles.css" rel="stylesheet" />
     <title>Game Reviews</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <main>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <header>
       <h1>Game Reviews</h1>
-      <div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="about">
         <h2>About</h2>
         <p>
           Welcome to our Game Reviews page! Explore the latest insights and
-          reviews on some of the most popular games, including League of
-          Legends, Dota 2, and Counter-Strike 2.
+          reviews on some of the most popular games.
         </p>
-      </div>
-      <div>
+      </section>
+
+      <section class="game-facts">
         <h2>Game Quick Facts</h2>
-        <h3>Top Games</h3>
         <ul>
           <li>League of Legends</li>
           <li>Dota 2</li>
           <li>Counter-Strike 2</li>
         </ul>
+        <a href="https://www.pcgamer.com">Visit PC Gamer</a>
+      </section>
 
-        <a href="https://www.pcgamer.com"><h3>Visit PC Gamer</h3></a>
-        <ol>
-          <li>
-            <strong>League of Legends</strong> - Known for its competitive scene
-            and strategic gameplay.
-          </li>
-          <li>
-            Dota 2 - Features deep mechanics and large esports tournaments.
-          </li>
-          <li>
-            Counter-Strike 2 - A classic FPS game with a massive player base.
-          </li>
-        </ol>
-      </div>
-
-      <div>
+      <section class="gallery">
         <h2>Gallery</h2>
-        <img
-          src="images/league_of_legends.jpg"
-          alt="League of Legends Gameplay"
-          width="90%"
-        />
-        <img src="images/dota2.jpg" alt="Dota 2 Gameplay" width="90%" />
-        <img src="images/cs2.jpg" alt="Counter-Strike 2 Gameplay" width="90%" />
-      </div>
+        <div class="image-grid">
+          <img src="images/league_of_legends.jpg" alt="League of Legends" />
+          <img src="images/dota2.jpg" alt="Dota 2" />
+          <img src="images/cs2.jpg" alt="Counter-Strike 2" />
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <p>&copy; 2025 Game Reviews. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
